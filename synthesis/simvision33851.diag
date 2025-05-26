@@ -1,0 +1,98 @@
+*** Message Type: info ***
+When: Sun May 25 20:05:46 EDT 2025
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s001
+User: admin
+Host: centos7
+Platform: Linux/x86_64/3.10.0-1160.108.1.el7.x86_64
+Started: Sun May 25 20:05:46 EDT 2025
+Command: /opt/cadence/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:centos7:53186 -64BIT -nocopyright
+Work Directory: /home/admin/shared/shared/synthesis
+ 
+*** Message Type: info ***
+When: Sun May 25 20:05:47 EDT 2025
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Sun May 25 20:05:50 EDT 2025
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Sun May 25 20:05:52 EDT 2025
+Connect to Simulator
+      Design: worklib.testbench:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Sun May 25 20:05:43 EDT 2025
+  Process ID: 33768
+   Directory: /home/admin/shared/shared/synthesis
+     Command: xrun -gui +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw
+
+ 
+*** Message Type: info ***
+When: Sun May 25 20:05:53 EDT 2025
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Sun May 25 20:06:07 EDT 2025
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Sun May 25 20:06:41 EDT 2025
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Sun May 25 20:06:53 EDT 2025
+Create schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Sun May 25 20:08:09 EDT 2025
+Delete schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Sun May 25 20:10:06 EDT 2025
+Exit XM-Sim: abnormal
+      Design: worklib.testbench:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Sun May 25 20:05:43 EDT 2025
+  Process ID: 33768
+   Directory: /home/admin/shared/shared/synthesis
+     Command: xrun -gui +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw
+
+ 
+*** Message Type: error ***
+When: Sun May 25 20:10:06 EDT 2025
+XM-Sim Crashed:
+      Design: worklib.testbench:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Sun May 25 20:05:43 EDT 2025
+  Process ID: 33768
+   Directory: /home/admin/shared/shared/synthesis
+     Command: xrun -gui +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw
+      Design: worklib.testbench:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s001
+        User: admin
+        Host: centos7
+Time Started: Sun May 25 20:05:43 EDT 2025
+  Process ID: 33768
+   Directory: /home/admin/shared/shared/synthesis
+     Command: xrun -gui +xm64bit -sv 03_synth/synth_wrapper_gate.v 01_tb/testbench.v -vlogext .sv -f 02_sim/flist.f -delay_mode punit -timescale 1ns/10ps +access+rcw
+
+ 
+*** Message Type: info ***
+When: Sun May 25 20:10:08 EDT 2025
+SimVision Exit.
+ 
